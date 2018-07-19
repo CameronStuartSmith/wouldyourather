@@ -1,0 +1,137 @@
+.ui.bottom.attached.segment.active.tab {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.ui.bottom.attached.segment.active.tab > * {
+	margin: 0 1rem;
+	margin-bottom: 1rem;
+}
+
+.question-content {
+	text-align: center;
+}
+
+.question-content > p {
+	font-size: 1.3rem;
+}
+
+.question-content > h3 {
+	font-size: 1.6rem;
+}
+
+.poll-answer {
+	
+}
+
+.ui.card.poll-results {
+	width: 700px;
+}
+
+.ui.card.poll-results > *:first-child {
+	background-color: #eee;
+}
+
+.poll-results-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.poll-results-content > *:nth-child(1) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 1rem;
+}
+
+.poll-results-content  img {
+	width: 128px;
+	height: 128px;
+}
+
+.poll-results-content  h2 {
+	font-size: 1.3rem;
+}
+
+.question-page, .create-question-page {
+	display: flex;
+	justify-content: center;
+}
+
+.leaderboard-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ui.card.create-question-card {
+	width: 700px;
+}
+
+.ui.card.create-question-card > *:first-child {
+	background-color: #eee;
+}
+
+.ui.card.leaderboard-item {
+	width: 600px;
+}
+
+.leaderboard-item-middle > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leaderboard-item-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leaderboard-item-middle {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.leaderboard-item-content > *:not(:last-child) {
+	border-right: 1px solid #ccc;
+	margin-right: 1rem;
+}
+
+.leaderboard-item-content > *:last-child {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.leaderboard-item-content > * {
+	padding: 0 1rem;
+}
+
+
+.not-found {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.not-found > h2 {
+	margin: 0;
+	font-size: 8rem;
+}
+
+.not-found > h3 {
+	margin: 0;
+	font-size: 3rem;
+}
+
+.navbar-style {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	padding: 1rem !important;
+}
